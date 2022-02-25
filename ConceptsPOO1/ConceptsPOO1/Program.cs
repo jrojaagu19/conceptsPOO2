@@ -8,7 +8,7 @@ try
 {
     Console.WriteLine(new Date(2024, 2, 29));
     Console.WriteLine(new Date(1974, 9, 23));
-    Console.WriteLine(new Date(1999, 11, 30));
+    Console.WriteLine(new Date(1999, 11, 28));
 }
 catch (Exception error)
 {
