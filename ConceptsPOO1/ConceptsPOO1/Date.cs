@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConceptsPOO1
 {
-    internal class Date
+    public class Date
     {
         private int _year;
         private int _month;
