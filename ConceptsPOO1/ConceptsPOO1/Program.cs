@@ -30,3 +30,16 @@ Employee employee2 = new CommissionEmployee()
     CommissionPercentaje = 0.03F
 };
 Console.WriteLine(employee2);
+
+Employee employee3 = new HoulyEmployee()
+{
+    Id = 7458,
+    FirstName = "Dante",
+    LastName = " Cuervo",
+    BirthDate = new Date(1868, 5, 23),
+    HiringDate = new Date(2019, 1, 4),
+    IsActive = true,
+    Hours = 90,
+    HoursValue = 5000m
+};
+Console.WriteLine(employee3);
