@@ -1,6 +1,6 @@
 ﻿namespace ConceptsPOO1
 {
-    public abstract class Employee
+    public abstract class Employee : IPay
     {
 
 
